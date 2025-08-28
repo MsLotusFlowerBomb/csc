@@ -1,0 +1,7 @@
+CROPPING GONE WRONG CHALLENGE
+
+Bob has written a small app to take screenshots of the places he often visits.
+
+Due to a privacy concern Bob crops out sensitive information.
+bob has noticed that the file size of cropped images do not change. 
+Can you inspect the screenshots to determine if data is being leaked by bob's application?  
