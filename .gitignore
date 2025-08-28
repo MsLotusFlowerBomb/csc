@@ -1,0 +1,65 @@
+# .gitignore
+
+# Temporary files
+/tmp/
+*.tmp
+*.temp
+
+# OS files
+.DS_Store
+Thumbs.db
+*~
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+
+# Node.js (if using any JS tools)
+node_modules/
+npm-debug.log*
+
+# Build artifacts
+build/
+dist/
+*.exe
+*.bin
+
+# Sensitive data (never commit flags from real competitions)
+secrets.txt
+private_keys/
+*.key
+*.pem
+
+# Large binary files that shouldn't be in git
+*.iso
+*.img
+*.vmdk
+*.ova
+
+# Tool-specific directories
+tools/
+binaries/
+exploits/
+
+# Personal notes that shouldn't be shared
+personal_notes.md
+private_notes/
+
+# Progress data (optional - you may want to commit this)
+# toolkit/data/progress.json
+
+# Log files
+*.log
+logs/
